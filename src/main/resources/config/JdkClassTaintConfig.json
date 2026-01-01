@@ -1,0 +1,20 @@
+{
+  "methodList": [
+    {
+      "pkgName": "java.lang",
+      "className": "java.lang.System",
+      "method": "arraycopy",
+      "taintIndices": "0,2"
+    },
+    {
+      "pkgName": "java.lang",
+      "className": "java.lang.Integer",
+      "method": "bitCount",
+      "taintIndices": "0"
+    }
+  ]
+}
+
+
+
+

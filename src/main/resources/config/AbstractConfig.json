@@ -1,0 +1,33 @@
+{
+  "classImplMapping" : {
+    "org.bouncycastle.pqc.crypto.crystals.kyber.Symmetric":"org.bouncycastle.pqc.crypto.crystals.kyber.Symmetric$ShakeSymmetric",
+    "org.bouncycastle.pqc.crypto.crystals.dilithium.Symmetric":"org.bouncycastle.pqc.crypto.crystals.dilithium.Symmetric$ShakeSymmetric",
+    "org.bouncycastle.crypto.Digest": "org.bouncycastle.crypto.digests.KeccakDigest",
+    "org.bouncycastle.pqc.crypto.saber.Symmetric": "org.bouncycastle.pqc.crypto.saber.Symmetric$AesSymmetric",
+    "org.bouncycastle.crypto.digests.GeneralDigest": "org.bouncycastle.crypto.digests.SHA256Digest",
+    "Map":"HashMap",
+    "Digest": "SHA512Digest",
+    "org.bouncycastle.crypto.Xof": "org.bouncycastle.crypto.digests.SHAKEDigest",
+    "StreamCipher": "ChaChaEngine",
+    "FrodoMatrixGenerator": "FrodoMatrixGenerator$Shake128MatrixGenerator",
+    "Mul_GF2x": "Mul_GF2x$Mul6",
+    "Rem_GF2n": "Rem_GF2n$REM192_SPECIALIZED_TRINOMIAL_GF2X",
+    "Polynomial": "HPSPolynomial",
+    "SPHINCSPlusEngine": "SPHINCSPlusEngine$Shake256Engine",
+    "BENES":"BENES12",
+    "GF": "GF12",
+    "CryptoServicesConstraints": "BitsOfSecurityConstraint",
+    "CryptoServiceProperties": "DefaultServiceProperties",
+    "bouncycastle.crypto.Digest": "bouncycastle.crypto.digests.SHA512Digest",
+    "bouncycastle.pqc.legacy.math.ntru.polynomial.Polynomial": "bouncycastle.pqc.legacy.math.ntru.polynomial.IntegerPolynomial",
+    "bouncycastle.crypto.Xof": "bouncycastle.crypto.digests.SHAKEDigest"
+
+  }
+}
+
+
+
+
+
+
+

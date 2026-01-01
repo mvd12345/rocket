@@ -1,0 +1,40 @@
+{
+  "className": "org.bouncycastle.pqc.crypto.ntruprime.SNTRUPrimeKeyPairGenerator",
+  "methodName": "generateKeyPair",
+  "parameters": [],
+  "returnType": {
+    "type": "class",
+    "packageName": "org.bouncycastle.crypto",
+    "className": "AsymmetricCipherKeyPair",
+    "dimension": 0
+  },
+  "taintConfig": {
+    "interactive_mode": false,
+    "tainted_variables": [],
+    "untainted_variables": [],
+    "secret_variables": [],
+    "tainted_local_variables": [
+      "g"
+    ],
+    "tainted_class_variables": []
+  },
+  "fullyQualifiedMethods": [],
+  "mutedRanges": [
+    {
+      "class": "org.bouncycastle.pqc.crypto.ntruprime.Utils",
+      "method": "toIntExact",
+      "lineFrom": 669,
+      "lineTo": 670,
+      "suppress": "Control Flow",
+      "reason": "input validation with consequent throw, if magnitude of 'l' exceeds integer range"
+    },
+    {
+      "class": "org.bouncycastle.pqc.crypto.ntruprime.SNTRUPrimeKeyPairGenerator",
+      "method": "generateKeyPair",
+      "lineFrom": 46,
+      "lineTo": 47,
+      "suppress": "Control Flow",
+      "reason": "timing dependent on random input as part of sampling loop"
+    }
+  ]
+}

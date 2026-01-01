@@ -1,0 +1,18 @@
+{
+  "className": "com.example.myapp.Tests.MyClass",
+  "methodName": "sign_picnic3",
+  "parameters": [
+    { "type": "int[]", "dimension": 1 },
+    { "type": "int[]", "dimension": 1 },
+    { "type": "byte[]", "dimension": 1 }
+  ],
+  "returnType": { "type": "boolean" },
+  "taintConfig": {
+    "interactive_mode": false,
+    "tainted_variables": [],
+    "untainted_variables": [],
+    "secret_variables": ["privateKey"],
+    "tainted_local_variables": [],
+    "tainted_class_variables": []
+  }
+}
